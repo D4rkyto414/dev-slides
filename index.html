@@ -5,22 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Slides</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta name="description" content="Una aplicación moderna para navegar entre diapositivas para desarrolladores">
 </head>
 <body>
     <div class="container" id="app">
         <header>
-            <h1>Dev Slides - Navegador de Diapositivas</h1>
-            <p>Una aplicación moderna para navegar entre diapositivas, perfecta para desarrolladores que quieren presentar sus ideas de forma clara y profesional.</p>
+            <h1>Dev Slides</h1>
         </header>
-        <div class="slide" id="slide-content"></div>
-        <div class="controls">
-            <button id="prev">◀ Anterior</button>
-            <button id="next">Siguiente ▶</button>
+
+        <div class="slide-container">
+            <div class="slide" id="slide-content">
+                <!-- El contenido de las diapositivas se cargará aquí mediante JavaScript -->
+            </div>
+            
+            <div class="slide-counter">
+                <span id="current-slide">1</span> / <span id="total-slides">5</span>
+            </div>
         </div>
+
+        <div class="controls">
+            <button id="prev"><i class="fas fa-chevron-left"></i> Anterior</button>
+            <button id="next">Siguiente <i class="fas fa-chevron-right"></i></button>
+        </div>
+
         <footer>
-            <p>Desarrollado para Code 201 | <a href="https://github.com/tu-usuario/dev-slides" target="_blank">Ver en GitHub</a></p>
+            <div class="footer-content">
+                <p>Desarrollado para Code 201 | <a href="https://github.com/D4rkyto414/dev-slides" target="_blank"><i class="fab fa-github"></i> Ver en GitHub</a></p>
+            </div>
         </footer>
     </div>
     <script src="js/app.js"></script>
