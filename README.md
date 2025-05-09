@@ -1,9 +1,9 @@
 # dev-slides
 
-Dev Slides es una aplicación web sencilla para crear y navegar entre diapositivas, ideal para desarrolladores que desean presentar sus ideas de manera clara y profesional. Este proyecto fue creado como parte del curso Code 201.
+Dev Slides es una aplicación web ligera y minimalista diseñada para desarrolladores que buscan crear presentaciones rápidas y efectivas usando solo HTML, CSS y JavaScript. Esta herramienta simplifica el proceso de crear y navegar entre diapositivas, permitiendo que cada slide sea un objeto de JavaScript con título, descripción opcional y puntos destacados. Con un diseño limpio y centrado, Dev Slides es perfecto para presentar ideas, proyectos o conceptos técnicos de manera clara y profesional. Este proyecto fue creado como parte del curso Code 201.
 
 ## 📚 Descripción del Proyecto
-Esta aplicación permite crear presentaciones rápidas usando objetos de JavaScript para cada diapositiva. Las diapositivas pueden incluir títulos, descripciones y listas de puntos.
+Dev Slides permite crear presentaciones rápidas usando objetos de JavaScript para cada diapositiva. Las diapositivas pueden incluir títulos, descripciones y listas de puntos, haciendo que sea fácil personalizar cada slide según el contenido que quieras compartir.
 
 ## 🗂️ Ejemplo de un Slide como Objeto
 ![image](https://github.com/user-attachments/assets/7f6394ae-7dbe-46ee-acdb-456b52160938)
@@ -27,5 +27,9 @@ Esta aplicación permite crear presentaciones rápidas usando objetos de JavaScr
     ```
 3. Abre el archivo `index.html` en tu navegador o usa la extensión Live Server en VS Code para una experiencia más fluida.
 
+
+
+
 4. ¡Empieza a navegar entre tus diapositivas!
+
 
