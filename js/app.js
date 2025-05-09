@@ -22,6 +22,10 @@ const slideContent = document.getElementById('slide-content');
 const prevButton = document.getElementById('prev');
 const nextButton = document.getElementById('next');
 
+// Slide Counter
+const currentSlideElement = document.getElementById('current-slide');
+const totalSlidesElement = document.getElementById('total-slides');
+
 // Render Slide
 function renderSlide(index) {
     const slide = slides[index];
@@ -34,6 +38,10 @@ function renderSlide(index) {
         `;
         slideContent.style.opacity = 1;
     }, 300);
+
+    // Actualizar el contador de diapositivas
+    currentSlideElement.textContent = index + 1;
+
     prevButton.disabled = index === 0;
     nextButton.disabled = index === slides.length - 1;
 }
@@ -52,6 +60,9 @@ nextButton.addEventListener('click', () => {
         renderSlide(currentIndex);
     }
 });
+
+// Initializer count total slides
+totalSlidesElement.textContent = slides.length;
 
 // Initial Render
 renderSlide(currentIndex);
