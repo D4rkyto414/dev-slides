@@ -13,6 +13,9 @@ Dev Slides permite crear presentaciones rápidas usando objetos de JavaScript pa
 
 ## 📸 Captura de Pantalla 
 
+![image](https://github.com/user-attachments/assets/e1376fc9-16d2-4991-9384-1566f0d538a2)
+
+
 
 
 ## 🚀 Instrucciones para Correr el Proyecto
